@@ -70,9 +70,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### update
+this is important to remove errors and warnings
+
+npm install --save-dev @testing-library/react
+
 npm install react@latest react-dom@latest @testing-library/react@latest
 
 .babelrc
 {
     "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
+
+react testing background url
+screen.logTestingPlaygroundURL();
+
+
+--detectOpenHandles
+solve the graceful exit error problem
+put it in package.json
+
+// eslint-disable-next-line
+this remove error line if needed
+
+
+screen.debug() 
+shows the element structure
