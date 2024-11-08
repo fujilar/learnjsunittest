@@ -100,5 +100,6 @@ shows the element structure
 npx rtl-book serve roles-notes.js
 terminal command
 
- npx rtl-book serve query-notes.js
- npx rtl-book serve criteria-notes.js
+npx rtl-book serve query-notes.js
+npx rtl-book serve criteria-notes.js
+npx rtl-book serve matcher-notes.js 
