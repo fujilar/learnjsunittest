@@ -10,6 +10,9 @@ function UserForm({ onUserAdd }) {
         onUserAdd({ name, email });
         // console.log('Name:', name);
         // console.log('Email:', email);
+
+        setEmail('');
+        setName('');
     };
 
     return (
@@ -128,3 +131,4 @@ export default UserForm;
 //     }
     
 //     export default UserForm;
+
